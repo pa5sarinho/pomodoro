@@ -1,0 +1,96 @@
+body {
+    background-color: #121818;
+    /*background-image: url('pattern/leaves2.png');*/
+    color: #9ce451;
+    font-family: sans-serif;
+    text-align: center;
+  }
+
+  #main {
+    background-image: url('pattern/leaves2.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 700px;
+    height: 500px;
+    margin: 0 auto;
+    margin-top: 10%;
+    border-radius: 20px;
+  }
+
+  #timer {
+    font-size: 5rem;
+    font-weight: bold;
+    margin-top: 90px;
+    color: #f1e2ca;
+    /*background-image: url('pattern/leaves1.png');*/
+    width: 340px;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    text-shadow: 4px 4px #121818;
+  }
+  
+  #timer.break {
+    background-color: #f1e2ca;
+    color: #79616f;
+  }
+  
+  button {
+    font-size: 1.2rem;
+    font-weight: bold;
+    background-color: #1f5d5e;
+    color: #9ce451;
+    border: none;
+    padding: 7px 20px;
+    border-radius: 5px;
+    margin-top: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  button:hover {
+    background-color: #3c5148;
+  }
+
+  #stop {
+    padding: 7px 10px;
+    background-color: #3c5148;
+  }
+  
+  #pomodoros {
+    font-size: 1.2rem;
+    margin-top: 20px;
+    color: #9ce451;
+  }
+
+  #input-boxes {
+    margin-left: 10px;
+  }
+
+  input[type="number"] {
+    border: none;
+    border-bottom: 2px solid #b2c5b2;
+    background-color: transparent;
+    color: #f1e2ca;
+    font-size: 18px;
+    padding: 8px;
+    margin: 8px;
+    width: 50px;
+    box-sizing: border-box;
+    transition: all 0.3s ease;
+    -moz-appearance:textfield;
+  }
+  
+  input[type="number"]:focus {
+    outline: none;
+    border-bottom: 2px solid #79a97d;
+  }
+
+  input[type=number]::-webkit-outer-spin-button,
+  input[type=number]::-webkit-inner-spin-button {
+      -webkit-appearance: none;
+      margin: 0;
+  }
